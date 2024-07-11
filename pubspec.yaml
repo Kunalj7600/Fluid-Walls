@@ -1,0 +1,44 @@
+name: fluid_walls
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  http:
+  path_provider:
+  permission_handler: 
+  flutter_staggered_grid_view:
+  cached_network_image:
+  external_path:
+  media_scanner:
+  cupertino_icons: ^1.0.2
+  flutter_masonry_view:
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - lib/assets/images/playstore.png
+    - lib/assets/images/ic_launcher.png
+    - lib/assets/images/back2.webp
+    - lib/assets/images/back1.webp
+    - lib/assets/images/Splash.jpg
+
+  
+  uses-material-design: true
+
+  
